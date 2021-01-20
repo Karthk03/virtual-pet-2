@@ -28,17 +28,17 @@ class Food
             //if hour is grater than 12 then we have to take the rmainder when devided by 12
             if(this.lastFeed>12)
             {
-                text("lase feed: "+this.lastFeed%12+ "PM",200,700);
+                text("last feed: "+this.lastFeed%12+ "PM",200,700);
             }
             // if it is 0 then it is the begening of the day or 12PM
             else if(this.lastFeed == 0)
             {
-                text("lase feed: 12PM",200,700);
+                text("last feed: 12PM",200,700);
             }
             // if it does not fall into the above catigories then we can just display normaly
             else
             {
-                text("lase feed: "+this.lastFeed+ "AM",200,500);
+                text("last feed: "+this.lastFeed+ "AM",200,500);
             }
         }
     }
